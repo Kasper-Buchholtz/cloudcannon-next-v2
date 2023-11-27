@@ -11,7 +11,7 @@ export default function HomeHero( {block, dataBinding}) {
                 <Heading level={2} className="text-giant"> {block.title} </Heading>
             </div>
             <div className="col-span-12">
-                <Image className="w-full h-auto" unoptimized={true} src={block.image} alt="Hero Image" width={100} height={100} />
+                <Image className="w-full h-auto" src={block.image} alt="Hero Image" width={100} height={100} />
             </div>
         </section>
         </>
