@@ -27,6 +27,11 @@
             "link": "https://www.youtube.com/mycompany",
             "icon": "ph-youtube-logo",
             "icon_alt": "YouTube"
+        },
+        {
+            "link": "",
+            "icon": "",
+            "icon_alt": ""
         }
     ],
     "sections": [
@@ -83,8 +88,8 @@
         }
     ],
     "_inputs": {
-      "logo": {
-        "type": "image"
-      }
+        "logo": {
+            "type": "image"
+        }
     }
 }
