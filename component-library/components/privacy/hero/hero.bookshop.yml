@@ -5,7 +5,7 @@ spec:
   label: Hero
   description: Hero section
   icon: "lock"
-  tags: ["hero"]
+  tags: ["Topbanner"]
 
 # Defines the structure of this component, as well as the default values
 blueprint:
