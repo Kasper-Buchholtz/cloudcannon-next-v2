@@ -34,10 +34,15 @@ collections_config:
     path: content/posts
     output: true
     url: /blog/[slug]
+    description: ''
     icon: notes
+    _editables: {}
     _enabled_editors:
       - content
       - visual
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -49,10 +54,14 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         icon: notes
+        _editables: {}
+        _inputs: {}
+        _select_data: {}
+        _structures: {}
   Medarbejder:
-    path: /medarbejder
+    path: content/medarbejder
     output: false
-    url:
+    url: /medarbejder/[slug]
     filter:
       base:
       include:
